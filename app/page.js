@@ -91,7 +91,7 @@ export default function Guestbook() {
           <ul className="flex flex-col gap-3">
             {messages.map((message) => (
               <li
-                key={message.id}
+                key={index}
                 className="rounded-lg border border-zinc-200 bg-white p-4 dark:border-zinc-800 dark:bg-zinc-900"
               >
                 <p className="font-medium">{message.name}</p>
